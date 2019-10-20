@@ -1,18 +1,18 @@
 body {
     padding: 0px;
     margin: 0px
-  }
-  
-  header {
+}
+
+header {
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: white;
     width: 100%;
     float: left
-  }
-  
-  /* Container holding the image and the text */
-  .nav-bar {
+}
+
+/* Container holding the image and the text */
+.nav-bar {
     position: absolute;
     top: 0;
     margin-left: 0%;
@@ -24,9 +24,9 @@ body {
     overflow: hidden;
     border-bottom: 2px solid #dddddd;
     z-index: 3;
-   }
-  
-   .heading_name {
+}
+
+.heading_name {
     background-color: #4aaaa5;
     background-position: 100%;
     color: white;
@@ -36,22 +36,22 @@ body {
     font-size: 2em;
     font-weight: bold;
     padding: 57px;
-   }
-  
-   .LinkMe {
-     margin-right: 210px;
-   }
-  
-   .links {
+}
+
+.LinkMe {
+    margin-right: 210px;
+}
+
+.links {
     margin-left: 10px;
     margin-right: 15px;
     margin-top: -15px;
     margin-bottom: 17px;
     color: #666666;
     float: right;
-   }
-  
-  .container {
+}
+
+.container {
     clear: both;
     width: 720px;
     margin-left: 10%;
@@ -62,264 +62,271 @@ body {
     background-color: white;
     padding: 3%;
     border: 50px solid #dddddd;
-    overflow: hidden; 
+    overflow: hidden;
     position: relative;
-   }
-  
-  h2 {
-     color: #4aaaa5;
-     border-bottom: 2px solid black; 
-   }
-  
-   .content-topper {
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid black;
+}
+
+.content-topper {
     margin: 0px 0px 0px 0px;
     height: 40px;
     padding: 0px 0px 20px 0px;
     width: 960px;
     border-bottom: 2px solid #dddddd;
-   }
-  
-   body {
+}
+
+body {
     background-color: #dddddd
-   }
-  
-   a {
-     float: left;
-     margin: right 200px;
-   }
-    
-    /* Bottom left text */
-    .bottom-left {
-      clear: both;
-      position: absolute;
-      bottom: 200px;
-      left: 200px;
-      overflow: auto;
-    }
-    
-    /* Top left text */
-    .top-left {
-      position: absolute;
-      top: 200px;
-      left: 200px;
-    }
-    
-    /* Top right text */
-    .top-right {
-      position: absolute;
-      top: 200px;
-      right: 200px;
-    }
-    
-    /* Bottom text */
-    .bottom {
-      position: absolute;
-      bottom: 200px;
-      right: 200px;
-      background-color: lightblue
-    }
-  
-    /* Centered text */
-    .centered {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: lightblue
-    }
-  
-    h1 {
-      background-color: lightblue;
-      top: 50%;
-      left: 50%;
-      right: 50%;
-      bottom: 50;
-    }
-  
-    p.outset {border-style: outset;}
-  
-    /* The navbar container */
-  
-  .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
-  
-    footer {
-      left: 0;
-      background-color: #666666;
-      border-top: 90px #4aaaa5;
-      color: white; 
-      text-align: center;
-      padding: 0;
-      line-height: 25px;
-      width: 100%;
-      margin-bottom: 0%;
-      position: absolute; 
-    }
-  
-    .header {
-      background-color: #F1F1F1;
-      text-align: center;
-      padding: 20px;
-    }
-  
-    form {
-      padding: 11px;
-      margin-top: 13px;
-      margin-bottom: 13px;
-  
-    }
-  
-    input {
-      float: bottom;
-    }
-  
-    im {
-      float: left;
-      margin: 0px 15px 0px 0px;
-    }
-  
-    .submitButton {
-      background-color: #4aaaa5;
-      color: white;
-      width: 67px;
-      height: 33px;
-    }
-  
-    .htext-block {
-      background-color: #4aaaa5;
-      color: #F1F1F1;
-    }
-      
-    .Hangman {
-        text-align: center;
-        background-color: #4aaaa5;
-        color: white;
-        margin-left: 18px;
-        margin-top: 188px;
-        width: 31.4%;
-        height: 27px;
-        float: left;
-        position: absolute;
-    }
-  
-    .RPGGames {
-      clear: both;
-      text-align: center;
-      background-color: #4aaaa5;
-      color: white;
-      margin-left: -151px;
-      margin-top: 114px;
-      width: 25.8%;
-      height: 30px;
-      float: left;
-      position: absolute;
-  }
-  
-  .TriviaGames {
-      clear: both;
-      text-align: center;
-      background-color: #4aaaa5;
-      color: white;
-      margin-left: -152px;
-      margin-top: 118px;
-      width: 26.3%;
-      height: 30px;
-      float: left;
-      position: absolute;
-  }
-  
-  .RockPaperScissors {
-      clear: both;
-      text-align: center;
-      background-color: #4aaaa5;
-      color: white;
-      margin-left: -120px;
-      margin-top: 118px;
-      width: 25.8%;
-      height: 30px;
-      float: right;
-      position: absolute;
-  }
-  
-  .RutgersWidgetInfo {
-      clear: both;
-      text-align: center;
-      background-color: #4aaaa5;
-      color: white;
-      margin-left: -152px;
-      margin-top: 118px;
-      width: 26.1%;
-      height: 30px;
-      float: right;
-      position: absolute;
-  }
-    
-  
-    .row {
-      margin: 8px -16px;
-    }
-    
-    /* Add padding BETWEEN each column (if you want) */
-    .row,
-    .row > .column {
-      padding: 8px;
-    }
-    
-    /* Create four equal columns that floats next to each other */
+}
+
+a {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    clear: both;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    overflow: auto;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+
+/* Bottom text */
+.bottom {
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+    background-color: lightblue
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue
+}
+
+h1 {
+    background-color: lightblue;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+/* The navbar container */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+footer {
+    left: 0;
+    background-color: #666666;
+    border-top: 90px #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 0%;
+    position: absolute;
+}
+
+.header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    padding: 11px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+
+}
+
+input {
+    float: bottom;
+}
+
+im {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.submitButton {
+    background-color: #4aaaa5;
+    color: white;
+    width: 67px;
+    height: 33px;
+}
+
+.htext-block {
+    background-color: #4aaaa5;
+    color: #F1F1F1;
+}
+
+.Hangman {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 18px;
+    margin-top: 188px;
+    width: 31.4%;
+    height: 27px;
+    float: left;
+    position: absolute;
+}
+
+.RPGGames {
+    clear: both;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: -151px;
+    margin-top: 114px;
+    width: 25.8%;
+    height: 30px;
+    float: left;
+    position: absolute;
+}
+
+.TriviaGames {
+    clear: both;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: -152px;
+    margin-top: 118px;
+    width: 26.3%;
+    height: 30px;
+    float: left;
+    position: absolute;
+}
+
+.RockPaperScissors {
+    clear: both;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: -120px;
+    margin-top: 118px;
+    width: 25.8%;
+    height: 30px;
+    float: right;
+    position: absolute;
+}
+
+.RutgersWidgetInfo {
+    clear: both;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: -152px;
+    margin-top: 118px;
+    width: 26.1%;
+    height: 30px;
+    float: right;
+    position: absolute;
+}
+
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 400px) {
     .column {
-      float: left;
-      width: 25%;
-    }
-    
-    /* Clear floats after rows */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Content */
-    .content {
-      background-color: white;
-      padding: 10px;
-    }
-    
-    /* Responsive layout - makes a two column-layout instead of four columns */
-    @media screen and (max-width: 400px) {
-      .column {
         width: 50%;
-      }
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .heading_name {
+        margin-left: 10%;
     }
 
-    @media only screen and (max-width: 980px) {
-        .heading_name {
-          margin-left: 10%;
-        }
+    .LinkMe {
+        margin-right: 100px;
     }
+}
 
-    @media only screen and (max-width: 980px) {
-        .LinkMe {
-          margin-right: 100px;
-        }
+@media only screen and (max-width: 768px) {
+    .container {
+        height: 1000px;
+        width: 550px;
     }
+}
 
-    @media only screen and (max-width: 768px) {
-        .container {
-          height: 1000px;
-          width: 550px;
-        }
+@media only screen and (max-width: 768px) {
+    .heading_name {
+        margin-left: 6%;
     }
+}
 
-    @media only screen and (max-width: 768px) {
-        .heading_name {
-          margin-left: 6%;
-        }
+@media only screen and (max-width: 768px) {
+    .LinkMe {
+        margin-right: 42px;
     }
+}
 
-    @media only screen and (max-width: 768px) {
-        .LinkMe {
-          margin-right: 42px;
-        }
+@media only screen and (max-width: 640px) {
+    .heading_name {
+        margin-left: 10%;
+        width: 100%;
     }
+}
